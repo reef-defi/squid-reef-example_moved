@@ -1,0 +1,6 @@
+{
+  "outDir": "src/types",
+  "specVersions": "http://localhost:8888/graphql",
+  "events": [],
+  "calls": []
+}

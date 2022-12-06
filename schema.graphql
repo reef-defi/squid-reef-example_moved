@@ -1,0 +1,15 @@
+type Account @entity {
+    id: ID!
+    evmAddress: String @index @unique
+    transfersSent: [Transfer!]! @derivedFrom(field: "from")
+    transfersReceived: [Transfer!]! @derivedFrom(field: "to")
+}
+
+type Transfer @entity {
+    id: ID!
+    from: Account! @index
+    to: Account! @index
+    amount: BigInt! @index
+    timestamp: BigInt! @index
+    blockNumber: Int! @index
+}

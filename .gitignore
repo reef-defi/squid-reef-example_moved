@@ -1,0 +1,10 @@
+/node_modules
+/lib
+
+/**Versions.json
+
+/.idea
+/*.code-workspace
+
+/.env
+/.notes
