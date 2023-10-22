@@ -1,5 +1,7 @@
 # EVM squid Reef template
 
+# Moved to https://github.com/reef-chain/subsquid-evm-event-processor
+
 This is a sample built upon [this template](https://github.com/subsquid/squid-frontier-evm-template) adapted specifically for
 Reef chain. It showcases how to index EVM logs. It indexes REEF token transfers and serves them via graphql API.
 
